@@ -113,6 +113,12 @@
 		"oAP": "/build/frontend/bulmapress/css/bulmapress.css.map",
 		"oF": 0
 		},
+	"/frontend/bulmapress/node_modules": {
+		"ft": 65536,
+		"oA": 2,
+		"oAP": "/build/frontend/bulmapress/node_modules",
+		"oF": 0
+		},
 	"/frontend/bulmapress/package-lock.json": {
 		"ft": 524288,
 		"oA": 1,
@@ -709,22 +715,6 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/build/index.php",
-		"oF": 0
-		},
-	"/languages/readme.txt": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/build/languages/readme.txt",
-		"oF": 0
-		},
-	"/languages/wp_bulma.pot": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/build/languages/wp_bulma.pot",
 		"oF": 0
 		},
 	"/LICENSE": {
@@ -1484,6 +1474,14 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/template-parts/content-front.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/template-parts/content-front.php",
+		"oF": 0
+		},
 	"/template-parts/content-none.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -1522,6 +1520,22 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/build/template-parts/content.php",
+		"oF": 0
+		},
+	"/template-parts/languages/readme.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/template-parts/languages/readme.txt",
+		"oF": 0
+		},
+	"/template-parts/languages/wp_bulma.pot": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/template-parts/languages/wp_bulma.pot",
 		"oF": 0
 		},
 	"/templates/landing.php": {
