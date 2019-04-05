@@ -1,31 +1,43 @@
 <?php
 /**
- * Template part for displaying page content in page.php
+ * Template part for displaying page content
  *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
+ * @link https://codex.wordpress.org/Template_Hierarchy
  *
- * @package localwp
+ * @package Bulmapress
  */
-
 ?>
 
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<header class="entry-header">
-		<?php the_title( '<h1 class="entry-title page--title">', '</h1>' ); ?>
-		<hr>
-	</header><!-- .entry-header -->
+<article id="post-<?php the_ID(); ?>" <?php post_class('section'); ?>>
+	<div class="container content">
+		<header class="entry-header">
+			<?php the_title( '<h1 class="title is-1 entry-title">', '</h1>' ); ?>
+		</header><!-- .entry-header -->
 
-	<?php localwp_post_thumbnail(); ?>
+		<div class="content entry-content">
+			<?php the_content();?>
 
-	<div class="entry-content">
-		<?php
-		the_content();
-		?>
-		<?php 
-		  bloginfo();
-		?>
-	</div><!-- .entry-content -->
+			<?php wp_link_pages( array(
+				'before' => '<div class="page-links level">' . esc_html__( 'Pages:', 'bulmapress' ),
+				'after'  => '</div>',
+				) ); ?>
 
-</article>
+			</div><!-- .entry-content -->
 
-<!-- #post-<?php the_ID(); ?> -->
+			<?php if ( get_edit_post_link() ) : ?>
+				<footer class="entry-footer">
+					<?php
+					edit_post_link(
+						sprintf(
+							/* translators: %s: Name of current post */
+							esc_html__( 'Edit %s', 'bulmapress' ),
+							the_title( '<span class="screen-reader-text">"', '"</span>', false )
+							),
+						'<span class="edit-link">',
+						'</span>'
+						);
+						?>
+					</footer><!-- .entry-footer -->
+				<?php endif; ?>
+			</div>
+		</article><!-- #post-## -->

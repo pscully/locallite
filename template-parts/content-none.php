@@ -2,50 +2,36 @@
 /**
  * Template part for displaying a message that posts cannot be found
  *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
+ * @link https://codex.wordpress.org/Template_Hierarchy
  *
- * @package localwp
+ * @package Bulmapress
  */
-
 ?>
 
-<section class="no-results not-found">
-	<header class="page-header">
-		<h1 class="page-title"><?php esc_html_e( 'Nothing Found', 'localwp' ); ?></h1>
-	</header><!-- .page-header -->
+<section class="no-results not-found section">
+	<div class="container content">
+		<header class="page-header">
+			<h1 class="page-title"><?php esc_html_e( 'Nothing Found', 'bulmapress' ); ?></h1>
+		</header><!-- .page-header -->
+		<div class="content page-content">
+			<?php
+			if ( is_home() && current_user_can( 'publish_posts' ) ) : ?>
 
-	<div class="page-content">
-		<?php
-		if ( is_home() && current_user_can( 'publish_posts' ) ) :
+			<p><?php printf( wp_kses( __( 'Ready to publish your first post? <a href="%1$s">Get started here</a>.', 'bulmapress' ), array( 'a' => array( 'href' => array() ) ) ), esc_url( admin_url( 'post-new.php' ) ) ); ?></p>
 
-			printf(
-				'<p>' . wp_kses(
-					/* translators: 1: link to WP admin new post page. */
-					__( 'Ready to publish your first post? <a href="%1$s">Get started here</a>.', 'localwp' ),
-					array(
-						'a' => array(
-							'href' => array(),
-						),
-					)
-				) . '</p>',
-				esc_url( admin_url( 'post-new.php' ) )
-			);
+		<?php elseif ( is_search() ) : ?>
 
-		elseif ( is_search() ) :
-			?>
-
-			<p><?php esc_html_e( 'Sorry, but nothing matched your search terms. Please try again with some different keywords.', 'localwp' ); ?></p>
+			<p><?php esc_html_e( 'Sorry, but nothing matched your search terms. Please try again with some different keywords.', 'bulmapress' ); ?></p>
 			<?php
 			get_search_form();
 
-		else :
-			?>
+			else : ?>
 
-			<p><?php esc_html_e( 'It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help.', 'localwp' ); ?></p>
+			<p><?php esc_html_e( 'It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help.', 'bulmapress' ); ?></p>
 			<?php
 			get_search_form();
 
-		endif;
-		?>
-	</div><!-- .page-content -->
+			endif; ?>
+		</div><!-- .page-content -->
+	</div>
 </section><!-- .no-results -->

@@ -1,38 +1,35 @@
-=== localwp ===
+# Bulmapress
+###A WordPress flexbox theme
 
-Contributors: automattic
-Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
 
-Requires at least: 4.5
-Tested up to: 4.8
-Stable tag: 1.0.0
-License: GNU General Public License v2 or later
-License URI: LICENSE
+Hi. I'm a flexbox theme called Bulmapress.
 
-A starter theme called localwp.
+- Based on [Underscores](http://underscores.me/)
+- [Bulma](http://bulma.io) integration
+- Requires at least: [WordPress](http://wordpress.org) 4.0
+- Tested up to: [WordPress 4.7](https://wordpress.org/download/)
+- Stable tag: 0.0.1
+- License: [GNU General Public License v2 or later](http://www.gnu.org/licenses/gpl-2.0.html)
 
-== Description ==
 
-Description
-
-== Installation ==
+## Installation
 
 1. In your admin panel, go to Appearance > Themes and click the Add New button.
-2. Click Upload Theme and Choose File, then select the theme's .zip file. Click Install Now.
+2. Click Upload and Choose File, then select the theme's .zip file. Click Install Now.
 3. Click Activate to use your new theme right away.
 
-== Frequently Asked Questions ==
+## Frequently Asked Questions
 
-= Does this theme support any plugins? =
+*Does this theme support any plugins?*
 
-localwp includes support for Infinite Scroll in Jetpack.
+Bulmapress includes support for Infinite Scroll in Jetpack.
 
-== Changelog ==
+##Changelog
 
-= 1.0 - May 12 2015 =
-* Initial release
+*v0.0.1 - Jan 04 2017* : **Initial draft**
 
-== Credits ==
+##Credits
 
-* Based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc., [GPLv2 or later](https://www.gnu.org/licenses/gpl-2.0.html)
-* normalize.css https://necolas.github.io/normalize.css/, (C) 2012-2016 Nicolas Gallagher and Jonathan Neal, [MIT](https://opensource.org/licenses/MIT)
+* Based on Underscores http://underscores.me/, (C) 2012-2016 Automattic, Inc., [GPLv2 or later](https://www.gnu.org/licenses/gpl-2.0.html)
+* bulma.io http://bulma.io/, (C) 2017 Jeremy Thomas, [MIT](http://opensource.org/licenses/MIT)
+* wp-bootstrap-navwalker, (C) 2014 Edward McIntyre - @twittem, [GPLv2 or later](https://www.gnu.org/licenses/gpl-2.0.html)
