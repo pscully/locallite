@@ -84,7 +84,7 @@
 		},
 	"/frontend/bulmapress/bulmapress.sass": {
 		"aP": 0,
-		"bl": 0,
+		"bl": 1,
 		"dP": 10,
 		"dS": 0,
 		"ft": 2,
@@ -97,7 +97,7 @@
 		},
 	"/frontend/bulmapress/css/bulmapress.css": {
 		"aP": 1,
-		"bl": 0,
+		"bl": 1,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
@@ -137,7 +137,7 @@
 		},
 	"/frontend/bulmapress/sass/components/_all.sass": {
 		"aP": 0,
-		"bl": 0,
+		"bl": 1,
 		"dP": 10,
 		"dS": 0,
 		"ft": 2,
@@ -150,7 +150,7 @@
 		},
 	"/frontend/bulmapress/sass/components/_comments.sass": {
 		"aP": 0,
-		"bl": 0,
+		"bl": 1,
 		"dP": 10,
 		"dS": 0,
 		"ft": 2,
@@ -163,7 +163,7 @@
 		},
 	"/frontend/bulmapress/sass/components/_navigation.sass": {
 		"aP": 0,
-		"bl": 0,
+		"bl": 1,
 		"dP": 10,
 		"dS": 0,
 		"ft": 2,
@@ -176,7 +176,7 @@
 		},
 	"/frontend/bulmapress/sass/elements/_all.sass": {
 		"aP": 0,
-		"bl": 0,
+		"bl": 1,
 		"dP": 10,
 		"dS": 0,
 		"ft": 2,
@@ -189,7 +189,7 @@
 		},
 	"/frontend/bulmapress/sass/elements/_buttons.sass": {
 		"aP": 0,
-		"bl": 0,
+		"bl": 1,
 		"dP": 10,
 		"dS": 0,
 		"ft": 2,
@@ -202,7 +202,7 @@
 		},
 	"/frontend/bulmapress/sass/elements/_card.sass": {
 		"aP": 0,
-		"bl": 0,
+		"bl": 1,
 		"dP": 10,
 		"dS": 0,
 		"ft": 2,
@@ -215,7 +215,7 @@
 		},
 	"/frontend/bulmapress/sass/elements/_container.sass": {
 		"aP": 0,
-		"bl": 0,
+		"bl": 1,
 		"dP": 10,
 		"dS": 0,
 		"ft": 2,
@@ -228,7 +228,7 @@
 		},
 	"/frontend/bulmapress/sass/elements/_content.sass": {
 		"aP": 0,
-		"bl": 0,
+		"bl": 1,
 		"dP": 10,
 		"dS": 0,
 		"ft": 2,
@@ -239,9 +239,22 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/frontend/bulmapress/sass/elements/_custom.sass": {
+		"aP": 0,
+		"bl": 1,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/build/frontend/bulmapress/sass/elements/_custom.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/frontend/bulmapress/sass/elements/_hero.sass": {
 		"aP": 0,
-		"bl": 0,
+		"bl": 1,
 		"dP": 10,
 		"dS": 0,
 		"ft": 2,
@@ -254,7 +267,7 @@
 		},
 	"/frontend/bulmapress/sass/elements/_img.sass": {
 		"aP": 0,
-		"bl": 0,
+		"bl": 1,
 		"dP": 10,
 		"dS": 0,
 		"ft": 2,
@@ -267,7 +280,7 @@
 		},
 	"/frontend/bulmapress/sass/elements/_level.sass": {
 		"aP": 0,
-		"bl": 0,
+		"bl": 1,
 		"dP": 10,
 		"dS": 0,
 		"ft": 2,
@@ -280,7 +293,7 @@
 		},
 	"/frontend/bulmapress/sass/elements/_pagination.sass": {
 		"aP": 0,
-		"bl": 0,
+		"bl": 1,
 		"dP": 10,
 		"dS": 0,
 		"ft": 2,
@@ -293,7 +306,7 @@
 		},
 	"/frontend/bulmapress/sass/elements/_post.sass": {
 		"aP": 0,
-		"bl": 0,
+		"bl": 1,
 		"dP": 10,
 		"dS": 0,
 		"ft": 2,
@@ -306,7 +319,7 @@
 		},
 	"/frontend/bulmapress/sass/elements/_searchform.sass": {
 		"aP": 0,
-		"bl": 0,
+		"bl": 1,
 		"dP": 10,
 		"dS": 0,
 		"ft": 2,
@@ -319,7 +332,7 @@
 		},
 	"/frontend/bulmapress/sass/elements/_section.sass": {
 		"aP": 0,
-		"bl": 0,
+		"bl": 1,
 		"dP": 10,
 		"dS": 0,
 		"ft": 2,
@@ -332,7 +345,7 @@
 		},
 	"/frontend/bulmapress/sass/elements/_site-description.sass": {
 		"aP": 0,
-		"bl": 0,
+		"bl": 1,
 		"dP": 10,
 		"dS": 0,
 		"ft": 2,
@@ -345,7 +358,7 @@
 		},
 	"/frontend/bulmapress/sass/elements/_spacer.sass": {
 		"aP": 0,
-		"bl": 0,
+		"bl": 1,
 		"dP": 10,
 		"dS": 0,
 		"ft": 2,
@@ -358,7 +371,7 @@
 		},
 	"/frontend/bulmapress/sass/elements/_title.sass": {
 		"aP": 0,
-		"bl": 0,
+		"bl": 1,
 		"dP": 10,
 		"dS": 0,
 		"ft": 2,
@@ -371,7 +384,7 @@
 		},
 	"/frontend/bulmapress/sass/elements/_widget.sass": {
 		"aP": 0,
-		"bl": 0,
+		"bl": 1,
 		"dP": 10,
 		"dS": 0,
 		"ft": 2,
@@ -384,7 +397,7 @@
 		},
 	"/frontend/bulmapress/sass/elements/_wrapper.sass": {
 		"aP": 0,
-		"bl": 0,
+		"bl": 1,
 		"dP": 10,
 		"dS": 0,
 		"ft": 2,
@@ -397,7 +410,7 @@
 		},
 	"/frontend/bulmapress/sass/overrides/_colors.sass": {
 		"aP": 0,
-		"bl": 0,
+		"bl": 1,
 		"dP": 10,
 		"dS": 0,
 		"ft": 2,
@@ -410,7 +423,7 @@
 		},
 	"/frontend/bulmapress/sass/settings/_accessability.sass": {
 		"aP": 0,
-		"bl": 0,
+		"bl": 1,
 		"dP": 10,
 		"dS": 0,
 		"ft": 2,
@@ -423,7 +436,7 @@
 		},
 	"/frontend/bulmapress/sass/settings/_all.sass": {
 		"aP": 0,
-		"bl": 0,
+		"bl": 1,
 		"dP": 10,
 		"dS": 0,
 		"ft": 2,
@@ -436,7 +449,7 @@
 		},
 	"/frontend/bulmapress/sass/settings/_helpers.sass": {
 		"aP": 0,
-		"bl": 0,
+		"bl": 1,
 		"dP": 10,
 		"dS": 0,
 		"ft": 2,
@@ -449,7 +462,7 @@
 		},
 	"/frontend/bulmapress/sass/settings/_layout.sass": {
 		"aP": 0,
-		"bl": 0,
+		"bl": 1,
 		"dP": 10,
 		"dS": 0,
 		"ft": 2,
@@ -462,7 +475,7 @@
 		},
 	"/frontend/bulmapress/sass/settings/_typography.sass": {
 		"aP": 0,
-		"bl": 0,
+		"bl": 1,
 		"dP": 10,
 		"dS": 0,
 		"ft": 2,
@@ -602,6 +615,14 @@
 		"oAP": "/build/functions/pagination.php",
 		"oF": 0
 		},
+	"/functions/panel.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/functions/panel.php",
+		"oF": 0
+		},
 	"/functions/post-thumbnails.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -624,6 +645,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/build/functions/search.php",
+		"oF": 0
+		},
+	"/functions/speed.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/functions/speed.php",
 		"oF": 0
 		},
 	"/functions/template-tags.php": {
@@ -733,7 +762,7 @@
 		},
 	"/node_modules/bulma/bulma.sass": {
 		"aP": 0,
-		"bl": 0,
+		"bl": 1,
 		"dP": 10,
 		"dS": 0,
 		"ft": 2,
@@ -746,7 +775,7 @@
 		},
 	"/node_modules/bulma/sass/base/_all.sass": {
 		"aP": 0,
-		"bl": 0,
+		"bl": 1,
 		"dP": 10,
 		"dS": 0,
 		"ft": 2,
@@ -759,7 +788,7 @@
 		},
 	"/node_modules/bulma/sass/base/generic.sass": {
 		"aP": 0,
-		"bl": 0,
+		"bl": 1,
 		"dP": 10,
 		"dS": 0,
 		"ft": 2,
@@ -772,7 +801,7 @@
 		},
 	"/node_modules/bulma/sass/base/helpers.sass": {
 		"aP": 0,
-		"bl": 0,
+		"bl": 1,
 		"dP": 10,
 		"dS": 0,
 		"ft": 2,
@@ -785,7 +814,7 @@
 		},
 	"/node_modules/bulma/sass/base/minireset.sass": {
 		"aP": 0,
-		"bl": 0,
+		"bl": 1,
 		"dP": 10,
 		"dS": 0,
 		"ft": 2,
@@ -798,7 +827,7 @@
 		},
 	"/node_modules/bulma/sass/components/_all.sass": {
 		"aP": 0,
-		"bl": 0,
+		"bl": 1,
 		"dP": 10,
 		"dS": 0,
 		"ft": 2,
@@ -811,7 +840,7 @@
 		},
 	"/node_modules/bulma/sass/components/breadcrumb.sass": {
 		"aP": 0,
-		"bl": 0,
+		"bl": 1,
 		"dP": 10,
 		"dS": 0,
 		"ft": 2,
@@ -824,7 +853,7 @@
 		},
 	"/node_modules/bulma/sass/components/card.sass": {
 		"aP": 0,
-		"bl": 0,
+		"bl": 1,
 		"dP": 10,
 		"dS": 0,
 		"ft": 2,
@@ -837,7 +866,7 @@
 		},
 	"/node_modules/bulma/sass/components/dropdown.sass": {
 		"aP": 0,
-		"bl": 0,
+		"bl": 1,
 		"dP": 10,
 		"dS": 0,
 		"ft": 2,
@@ -850,7 +879,7 @@
 		},
 	"/node_modules/bulma/sass/components/level.sass": {
 		"aP": 0,
-		"bl": 0,
+		"bl": 1,
 		"dP": 10,
 		"dS": 0,
 		"ft": 2,
@@ -863,7 +892,7 @@
 		},
 	"/node_modules/bulma/sass/components/list.sass": {
 		"aP": 0,
-		"bl": 0,
+		"bl": 1,
 		"dP": 10,
 		"dS": 0,
 		"ft": 2,
@@ -876,7 +905,7 @@
 		},
 	"/node_modules/bulma/sass/components/media.sass": {
 		"aP": 0,
-		"bl": 0,
+		"bl": 1,
 		"dP": 10,
 		"dS": 0,
 		"ft": 2,
@@ -889,7 +918,7 @@
 		},
 	"/node_modules/bulma/sass/components/menu.sass": {
 		"aP": 0,
-		"bl": 0,
+		"bl": 1,
 		"dP": 10,
 		"dS": 0,
 		"ft": 2,
@@ -902,7 +931,7 @@
 		},
 	"/node_modules/bulma/sass/components/message.sass": {
 		"aP": 0,
-		"bl": 0,
+		"bl": 1,
 		"dP": 10,
 		"dS": 0,
 		"ft": 2,
@@ -915,7 +944,7 @@
 		},
 	"/node_modules/bulma/sass/components/modal.sass": {
 		"aP": 0,
-		"bl": 0,
+		"bl": 1,
 		"dP": 10,
 		"dS": 0,
 		"ft": 2,
@@ -928,7 +957,7 @@
 		},
 	"/node_modules/bulma/sass/components/navbar.sass": {
 		"aP": 0,
-		"bl": 0,
+		"bl": 1,
 		"dP": 10,
 		"dS": 0,
 		"ft": 2,
@@ -941,7 +970,7 @@
 		},
 	"/node_modules/bulma/sass/components/pagination.sass": {
 		"aP": 0,
-		"bl": 0,
+		"bl": 1,
 		"dP": 10,
 		"dS": 0,
 		"ft": 2,
@@ -954,7 +983,7 @@
 		},
 	"/node_modules/bulma/sass/components/panel.sass": {
 		"aP": 0,
-		"bl": 0,
+		"bl": 1,
 		"dP": 10,
 		"dS": 0,
 		"ft": 2,
@@ -967,7 +996,7 @@
 		},
 	"/node_modules/bulma/sass/components/tabs.sass": {
 		"aP": 0,
-		"bl": 0,
+		"bl": 1,
 		"dP": 10,
 		"dS": 0,
 		"ft": 2,
@@ -980,7 +1009,7 @@
 		},
 	"/node_modules/bulma/sass/elements/_all.sass": {
 		"aP": 0,
-		"bl": 0,
+		"bl": 1,
 		"dP": 10,
 		"dS": 0,
 		"ft": 2,
@@ -993,7 +1022,7 @@
 		},
 	"/node_modules/bulma/sass/elements/box.sass": {
 		"aP": 0,
-		"bl": 0,
+		"bl": 1,
 		"dP": 10,
 		"dS": 0,
 		"ft": 2,
@@ -1006,7 +1035,7 @@
 		},
 	"/node_modules/bulma/sass/elements/button.sass": {
 		"aP": 0,
-		"bl": 0,
+		"bl": 1,
 		"dP": 10,
 		"dS": 0,
 		"ft": 2,
@@ -1019,7 +1048,7 @@
 		},
 	"/node_modules/bulma/sass/elements/container.sass": {
 		"aP": 0,
-		"bl": 0,
+		"bl": 1,
 		"dP": 10,
 		"dS": 0,
 		"ft": 2,
@@ -1032,7 +1061,7 @@
 		},
 	"/node_modules/bulma/sass/elements/content.sass": {
 		"aP": 0,
-		"bl": 0,
+		"bl": 1,
 		"dP": 10,
 		"dS": 0,
 		"ft": 2,
@@ -1045,7 +1074,7 @@
 		},
 	"/node_modules/bulma/sass/elements/form.sass": {
 		"aP": 0,
-		"bl": 0,
+		"bl": 1,
 		"dP": 10,
 		"dS": 0,
 		"ft": 2,
@@ -1058,7 +1087,7 @@
 		},
 	"/node_modules/bulma/sass/elements/icon.sass": {
 		"aP": 0,
-		"bl": 0,
+		"bl": 1,
 		"dP": 10,
 		"dS": 0,
 		"ft": 2,
@@ -1071,7 +1100,7 @@
 		},
 	"/node_modules/bulma/sass/elements/image.sass": {
 		"aP": 0,
-		"bl": 0,
+		"bl": 1,
 		"dP": 10,
 		"dS": 0,
 		"ft": 2,
@@ -1084,7 +1113,7 @@
 		},
 	"/node_modules/bulma/sass/elements/notification.sass": {
 		"aP": 0,
-		"bl": 0,
+		"bl": 1,
 		"dP": 10,
 		"dS": 0,
 		"ft": 2,
@@ -1097,7 +1126,7 @@
 		},
 	"/node_modules/bulma/sass/elements/other.sass": {
 		"aP": 0,
-		"bl": 0,
+		"bl": 1,
 		"dP": 10,
 		"dS": 0,
 		"ft": 2,
@@ -1110,7 +1139,7 @@
 		},
 	"/node_modules/bulma/sass/elements/progress.sass": {
 		"aP": 0,
-		"bl": 0,
+		"bl": 1,
 		"dP": 10,
 		"dS": 0,
 		"ft": 2,
@@ -1123,7 +1152,7 @@
 		},
 	"/node_modules/bulma/sass/elements/table.sass": {
 		"aP": 0,
-		"bl": 0,
+		"bl": 1,
 		"dP": 10,
 		"dS": 0,
 		"ft": 2,
@@ -1136,7 +1165,7 @@
 		},
 	"/node_modules/bulma/sass/elements/tag.sass": {
 		"aP": 0,
-		"bl": 0,
+		"bl": 1,
 		"dP": 10,
 		"dS": 0,
 		"ft": 2,
@@ -1149,7 +1178,7 @@
 		},
 	"/node_modules/bulma/sass/elements/title.sass": {
 		"aP": 0,
-		"bl": 0,
+		"bl": 1,
 		"dP": 10,
 		"dS": 0,
 		"ft": 2,
@@ -1162,7 +1191,7 @@
 		},
 	"/node_modules/bulma/sass/grid/_all.sass": {
 		"aP": 0,
-		"bl": 0,
+		"bl": 1,
 		"dP": 10,
 		"dS": 0,
 		"ft": 2,
@@ -1175,7 +1204,7 @@
 		},
 	"/node_modules/bulma/sass/grid/columns.sass": {
 		"aP": 0,
-		"bl": 0,
+		"bl": 1,
 		"dP": 10,
 		"dS": 0,
 		"ft": 2,
@@ -1188,7 +1217,7 @@
 		},
 	"/node_modules/bulma/sass/grid/tiles.sass": {
 		"aP": 0,
-		"bl": 0,
+		"bl": 1,
 		"dP": 10,
 		"dS": 0,
 		"ft": 2,
@@ -1201,7 +1230,7 @@
 		},
 	"/node_modules/bulma/sass/layout/_all.sass": {
 		"aP": 0,
-		"bl": 0,
+		"bl": 1,
 		"dP": 10,
 		"dS": 0,
 		"ft": 2,
@@ -1214,7 +1243,7 @@
 		},
 	"/node_modules/bulma/sass/layout/footer.sass": {
 		"aP": 0,
-		"bl": 0,
+		"bl": 1,
 		"dP": 10,
 		"dS": 0,
 		"ft": 2,
@@ -1227,7 +1256,7 @@
 		},
 	"/node_modules/bulma/sass/layout/hero.sass": {
 		"aP": 0,
-		"bl": 0,
+		"bl": 1,
 		"dP": 10,
 		"dS": 0,
 		"ft": 2,
@@ -1240,7 +1269,7 @@
 		},
 	"/node_modules/bulma/sass/layout/section.sass": {
 		"aP": 0,
-		"bl": 0,
+		"bl": 1,
 		"dP": 10,
 		"dS": 0,
 		"ft": 2,
@@ -1253,7 +1282,7 @@
 		},
 	"/node_modules/bulma/sass/utilities/_all.sass": {
 		"aP": 0,
-		"bl": 0,
+		"bl": 1,
 		"dP": 10,
 		"dS": 0,
 		"ft": 2,
@@ -1266,7 +1295,7 @@
 		},
 	"/node_modules/bulma/sass/utilities/animations.sass": {
 		"aP": 0,
-		"bl": 0,
+		"bl": 1,
 		"dP": 10,
 		"dS": 0,
 		"ft": 2,
@@ -1279,7 +1308,7 @@
 		},
 	"/node_modules/bulma/sass/utilities/controls.sass": {
 		"aP": 0,
-		"bl": 0,
+		"bl": 1,
 		"dP": 10,
 		"dS": 0,
 		"ft": 2,
@@ -1292,7 +1321,7 @@
 		},
 	"/node_modules/bulma/sass/utilities/derived-variables.sass": {
 		"aP": 0,
-		"bl": 0,
+		"bl": 1,
 		"dP": 10,
 		"dS": 0,
 		"ft": 2,
@@ -1305,7 +1334,7 @@
 		},
 	"/node_modules/bulma/sass/utilities/functions.sass": {
 		"aP": 0,
-		"bl": 0,
+		"bl": 1,
 		"dP": 10,
 		"dS": 0,
 		"ft": 2,
@@ -1318,7 +1347,7 @@
 		},
 	"/node_modules/bulma/sass/utilities/initial-variables.sass": {
 		"aP": 0,
-		"bl": 0,
+		"bl": 1,
 		"dP": 10,
 		"dS": 0,
 		"ft": 2,
@@ -1331,7 +1360,7 @@
 		},
 	"/node_modules/bulma/sass/utilities/mixins.sass": {
 		"aP": 0,
-		"bl": 0,
+		"bl": 1,
 		"dP": 10,
 		"dS": 0,
 		"ft": 2,
@@ -1403,7 +1432,7 @@
 		},
 	"/rtl.css": {
 		"aP": 1,
-		"bl": 0,
+		"bl": 1,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
@@ -1448,7 +1477,7 @@
 		},
 	"/style.css": {
 		"aP": 1,
-		"bl": 0,
+		"bl": 1,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
@@ -1466,7 +1495,7 @@
 		},
 	"/style.min.css": {
 		"aP": 1,
-		"bl": 0,
+		"bl": 1,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
@@ -1548,7 +1577,7 @@
 		},
 	"/woocommerce.css": {
 		"aP": 1,
-		"bl": 0,
+		"bl": 1,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
@@ -3407,7 +3436,7 @@
 		"createSourceMap": 0,
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
-		"shouldRunBless": 0
+		"shouldRunBless": 1
 		},
 	"languageDefaultsGIF": {
 		"autoOutputAction": 0,
@@ -3560,7 +3589,7 @@
 		"decimalPrecision": 10,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
+		"shouldRunBless": 1,
 		"useLibsass": 1
 		},
 	"languageDefaultsSLIM": {

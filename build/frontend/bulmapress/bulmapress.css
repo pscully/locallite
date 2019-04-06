@@ -7062,6 +7062,11 @@ pre {
   padding: 0;
   margin: 0; }
 
+.button.is-topbar {
+  background-color: #363636;
+  color: white;
+  border-radius: 5; }
+
 .post-comment-button {
   padding-left: 2em;
   padding-right: 2em; }
@@ -7214,6 +7219,12 @@ figure {
     .wrapper {
       padding-top: 40px;
       padding-bottom: 40px; } }
+
+.c-homeBanner {
+  border: 2px solid black; }
+
+.c-homeForm {
+  padding: 15px; }
 
 #comments {
   background: #fafafa; }

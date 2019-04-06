@@ -10629,6 +10629,12 @@ pre {
   margin: 0;
 }
 
+.button.is-topbar {
+  background-color: #363636;
+  color: white;
+  border-radius: 5;
+}
+
 .post-comment-button {
   padding-left: 2em;
   padding-right: 2em;
@@ -10839,6 +10845,10 @@ figure.aligncenter {
     padding-top: 40px;
     padding-bottom: 40px;
   }
+}
+
+.c-homeBanner {
+  border: 2px solid black;
 }
 
 #comments {

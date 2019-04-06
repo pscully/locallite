@@ -24,24 +24,49 @@
 	<div id="page" class="site">
 		<?php bulmapress_skip_link_screen_reader_text(); ?>
 		<header id="header">
-			<nav id="site-navigation" class="navbar" role="navigation" aria-label="main navigation">
+			<nav id="site-navigation" class="navbar is-transparent" role="navigation" aria-label="main navigation">
 				<div class="navbar-brand">
-					<?php 
-					  $custom_logo_id = get_theme_mod( 'custom_logo' );
-					  $image = wp_get_attachment_image_src( $custom_logo_id , 'full' );
-					  $siteURL = get_site_url();
+					<?php
+					$custom_logo_id = get_theme_mod('custom_logo');
+					$image = wp_get_attachment_image_src($custom_logo_id, 'full');
+					$siteURL = get_site_url();
 					?>
 					<a class="navbar-item" href="<?php echo esc_url($siteURL); ?>">
 						<img src="<?php echo esc_url($image[0]); ?>" alt="Website Logo" width="200" height="41">
 					</a>
 
 					<?php bulmapress_menu_toggle(); ?>
+
 				</div>
 				<div class="navbar-menu">
-					<div class="navbar-start"></div>
 					<?php bulmapress_navigation(); ?>
+					<div class="navbar-end">
+						<div class="navbar-item">
+							<div class="field is-grouped">
+								<p class="control">
+									<a class="bd-tw-button button" data-social-network="Twitter" data-social-action="tweet" data-social-target="<?php echo esc_url($siteURL); ?>" target="_blank" href="tel:+1-<?php echo get_option('phone_number'); ?>">
+										<span class="icon">
+											<i class="fas fa-phone"></i>
+										</span>
+										<span>
+											Call Now
+										</span>
+									</a>
+								</p>
+								<p class="control">
+									<a class="button is-topbar" href="mailto:<?php echo get_option('email_address'); ?>">
+										<span class="icon">
+											<i class="fas fa-envelope-square"></i>
+										</span>
+										<span>
+											Email Us
+										</span>
+									</a>
+								</p>
+							</div>
+						</div>
+					</div>
 				</div>
-			</nav>
-		</header>
-
-		<div id="content" class="site-content">
+	</div>
+	</nav>
+	</header>
