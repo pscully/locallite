@@ -10851,6 +10851,10 @@ figure.aligncenter {
   border: 2px solid black;
 }
 
+.c-homeForm {
+  padding: 15px;
+}
+
 #comments {
   background: #fafafa;
 }
