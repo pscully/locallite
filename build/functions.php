@@ -4,6 +4,7 @@ require get_template_directory() . '/functions/bulmapress_navwalker.php';
 require get_template_directory() . '/functions/bulmapress_helpers.php';
 require get_template_directory() . '/functions/bulmapress_custom_query.php';
 require get_template_directory() . '/functions/panel.php';
+require get_template_directory() . '/functions/post_types.php';
 
 if (!function_exists('bulmapress_setup')) :
 	/**
@@ -32,4 +33,5 @@ require get_template_directory() . '/functions/extras.php';
 require get_template_directory() . '/functions/customizer.php';
 require get_template_directory() . '/functions/jetpack.php';
 require get_template_directory() . '/functions/speed.php';
+
 

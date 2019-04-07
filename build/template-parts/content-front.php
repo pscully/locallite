@@ -89,3 +89,19 @@
         </div>
     </section>
 </article>
+
+<section class="section testimonials">
+
+<?php 
+		bulmapress_custom_query(array(
+			'post_type' => 'testimonials',
+			'post_class'	=> 'posts',
+			'section_title' => 'Recent Testimonials',
+			'section_columns' => 3,
+			'section_max_posts' => 3,
+			'section_button_text' => 'Read All Reviews'
+			)
+		);
+        ?>
+        
+</section>
