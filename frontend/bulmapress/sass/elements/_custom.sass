@@ -1,7 +1,49 @@
 @charset "utf-8"
 
+$homeBannerOne: #606c88
+$homeBannerTwo: #3f4c6b
+$homeBannerInvert: findColorInvert($homeBannerOne)
+
 .c-homeBanner
-    border: 2px solid black
+    background: $homeBannerOne /* Old browsers */
+    background: -moz-linear-gradient(top, $homeBannerOne 0%, $homeBannerTwo 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, $homeBannerOne 0%,$homeBannerTwo 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, $homeBannerOne 0%,$homeBannerTwo 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    // filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#606c88', endColorstr='#3f4c6b',GradientType=0 ); /* IE6-9 */
+    
+.c-homeBanner h1, h2
+    color: $homeBannerInvert
 
 .c-homeForm
     padding: 15px
+
+.c-homeForm .button 
+    border-radius: 0
+    border: none
+    box-shadow: rgb(57, 57, 57) 0px 0px 12px 0px
+    margin-top: 5px
+    display: inline-block
+    border-radius: 5px
+
+
+.c-homeForm .card-content.login 
+    background-color: #f9f6f6
+    border: none
+    height: 400px
+    padding: 20px
+
+.c-homeForm .card-footer-item.register
+    background-color: #284863
+    color: white
+
+.c-homeForm .input
+   border-width: 1px
+   border-radius: 15px
+
+
+.c-homeForm .card-footer
+   border: none
+
+.c-homeForm .label 
+   font-weight: lighter
+

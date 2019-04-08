@@ -10546,10 +10546,9 @@ label.panel-block:hover {
 }
 
 html {
-  background: none;
+  background-color: #ecf0f1;
 }
 
-html,
 body,
 .site {
   min-height: 100% !important;
@@ -10646,6 +10645,7 @@ pre {
   max-width: 720px;
   margin-left: auto;
   margin-right: auto;
+  box-shadow: #3c3c3c 0px 4px 10px 0px;
 }
 
 .card .card-image {
@@ -10697,6 +10697,10 @@ pre {
 .content > .hero-body {
   padding-left: 0;
   padding-right: 0;
+}
+
+.content p {
+  letter-spacing: 1px;
 }
 
 .hero.is-primary a.nav-item,
@@ -10848,11 +10852,55 @@ figure.aligncenter {
 }
 
 .c-homeBanner {
-  border: 2px solid black;
+  background: #606c88;
+  background: -moz-linear-gradient(top, #606c88 0%, #3f4c6b 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #606c88 0%, #3f4c6b 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #606c88 0%, #3f4c6b 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.c-homeBanner h1, h2 {
+  color: #fff;
 }
 
 .c-homeForm {
   padding: 15px;
+}
+
+.c-homeForm .button {
+  border-radius: 0;
+  border: none;
+  box-shadow: #393939 0px 0px 12px 0px;
+  margin-top: 5px;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+.c-homeForm .card-content.login {
+  background-color: #f9f6f6;
+  border: none;
+  height: 400px;
+  padding: 20px;
+}
+
+.c-homeForm .card-footer-item.register {
+  background-color: #284863;
+  color: white;
+}
+
+.c-homeForm .input {
+  border-width: 1px;
+  border-radius: 15px;
+}
+
+.c-homeForm .card-footer {
+  border: none;
+}
+
+.c-homeForm .label {
+  font-weight: lighter;
 }
 
 #comments {

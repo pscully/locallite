@@ -124,3 +124,76 @@ if ( ! function_exists( 'bulmapress_get_comments' ) ) {
 		}
 	}
 }
+
+if ( ! function_exists ( ' localwp_show_form' ) ) {
+	function localwp_show_form() 
+	{
+		$output = ' 
+		<div class="card">
+		<div class="container c-homeForm">
+			<div class="field">
+				<label class="label is-medium">Your Name</label>
+				<div class="control has-icons-left">
+					<input class="input is-medium" type="text" placeholder="Please enter your name">
+					<span class="icon is-small is-left">
+						<i class="fas fa-user"></i>
+					</span>
+
+				</div>
+
+			</div>
+
+			<div class="field">
+				<label class="label is-medium">Email</label>
+				<div class="control has-icons-left">
+					<input class="input is-medium" type="email" placeholder="Please enter your email">
+					<span class="icon is-small is-left">
+						<i class="fas fa-envelope"></i>
+					</span>
+
+				</div>
+			</div>
+
+			<div class="field">
+				<label class="label is-medium">Phone Number</label>
+				<div class="control has-icons-left">
+					<input class="input is-medium" type="email" placeholder="Best number to call you back?">
+					<span class="icon is-small is-left">
+						<i class="fas fa-phone"></i>
+					</span>
+
+				</div>
+			</div>
+
+			<div class="field">
+				<label class="label is-medium">Message</label>
+				<div class="control">
+					<textarea class="textarea is-medium" placeholder="Submit your request. A member of our team will respond ASAP!"></textarea>
+				</div>
+			</div>
+
+
+			<div class="field">
+				<label class="label is-medium">Want to get awesome emails?</label>
+				<div class="control">
+					<label class="radio is-medium">
+						<input class="is-medium" type="radio" name="question">
+						Yes
+					</label>
+					<label class="radio is-medium">
+						<input class="is-medium" type="radio" name="question">
+						No
+					</label>
+				</div>
+			</div>
+
+			<div class="field">
+				<div class="control">
+					<button class="button is-link is-medium is-fullwidth">Get In Touch</button>
+				</div>
+			</div>
+		</div>
+	</div>';
+	echo $output;
+	}
+}

@@ -66,6 +66,14 @@
 		"oAP": "/build/build",
 		"oF": 0
 		},
+	"/comments.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/comments.php",
+		"oF": 0
+		},
 	"/footer.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -653,6 +661,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/build/functions/search.php",
+		"oF": 0
+		},
+	"/functions/seo.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/functions/seo.php",
 		"oF": 0
 		},
 	"/functions/speed.php": {

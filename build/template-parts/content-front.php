@@ -1,10 +1,10 @@
-<article id="post-<?php the_ID(); ?>" <?php post_class('section'); ?>>
-    <section class="hero is-primary is-fullheight c-homeBanner">
+<article id="post-<?php the_ID(); ?>">
+    <section class="hero is-fullheight c-homeBanner">
         <div class="hero-body">
             <div class="container">
-                <?php the_title('<h1 class="title is-1 entry-title">Welcome to ', '</h1>'); ?>
+                <?php the_title('<h1 class="title is-1 is-size-2-mobile entry-title">', '</h1>'); ?>
 
-                <h2 class="subtitle">
+                <h2 class="subtitle has-text-white">
                     <?php
                     $siteDescription = get_bloginfo('description');
 
@@ -16,92 +16,44 @@
 
                     ?><br />
                 </h2>
+                <a href="#home--form" class="button is-medium is-outlined">Contact Us</a>
             </div>
         </div>
     </section>
     <section <?php post_class('section'); ?>>
         <div class="container entry-content">
             <div class="columns">
-                <div class="column content is-medium is-half"><?php the_content(); ?></div>
-                <div class="column is-half">
-                    <div class="card">
-                        <div class="container c-homeForm">
-                            <div class="field">
-                                <label class="label">Your Name</label>
-                                <div class="control has-icons-left has-icons-right">
-                                    <input class="input is-success" type="text" placeholder="Please enter your name">
-                                    <span class="icon is-small is-left">
-                                        <i class="fas fa-user"></i>
-                                    </span>
-                                    <span class="icon is-small is-right">
-                                        <i class="fas fa-check"></i>
-                                    </span>
-                                </div>
-
-                            </div>
-
-                            <div class="field">
-                                <label class="label">Email</label>
-                                <div class="control has-icons-left has-icons-right">
-                                    <input class="input is-danger" type="email" placeholder="Email input" value="hello@">
-                                    <span class="icon is-small is-left">
-                                        <i class="fas fa-envelope"></i>
-                                    </span>
-                                    <span class="icon is-small is-right">
-                                        <i class="fas fa-exclamation-triangle"></i>
-                                    </span>
-                                </div>
-                                <p class="help is-danger">This email is invalid</p>
-                            </div>
-
-                            <div class="field">
-                                <label class="label">Message</label>
-                                <div class="control">
-                                    <textarea class="textarea" placeholder="Textarea"></textarea>
-                                </div>
-                            </div>
-
-
-                            <div class="field">
-                                <label class="label">Want to get awesome emails?</label>
-                                <div class="control">
-                                    <label class="radio">
-                                        <input type="radio" name="question">
-                                        Yes
-                                    </label>
-                                    <label class="radio">
-                                        <input type="radio" name="question">
-                                        No
-                                    </label>
-                                </div>
-                            </div>
-
-                            <div class="field">
-                                <div class="control">
-                                    <button class="button is-link">Submit</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
+                <div class="column content is-medium s-four-fifths">
+                    <?php the_content(); ?>
+                    <div class="box">
+                      <h3 class="is-size-5">We're Standing By To Assist You! <span class="is-hidden-mobile">➡️</span><span class="is-hidden-tablet">⬇️</span></h3>
+                      <p>
+                          Use the form here to contact our team today. Or click any of the "Call Now" buttons you find around our site.
+                          During business hours, our team is friendly and quick to respond. After hours, we are just as friendly, but may not respond right away. 😃
+                      </p>
+                      <hr>
+                      <span>Talk to a human! Call: <?php echo get_option('phone_number'); ?></span>
+                </div>
+                </div>
+                <div id="home--form" class="column is-two-fifths">
+                   <?php localwp_show_form(); ?>
                 </div>
             </div>
         </div>
+        <div>
+
+            <?php
+            bulmapress_custom_query(
+                array(
+                    'post_type' => 'testimonials',
+                    'post_class'    => 'posts',
+                    'section_title' => 'Recent Testimonials',
+                    'section_columns' => 3,
+                    'section_max_posts' => 3,
+                    'section_button_text' => 'Read All Reviews'
+                )
+            );
+            ?>
+        </div>
     </section>
 </article>
-
-<section class="section testimonials">
-
-<?php 
-		bulmapress_custom_query(array(
-			'post_type' => 'testimonials',
-			'post_class'	=> 'posts',
-			'section_title' => 'Recent Testimonials',
-			'section_columns' => 3,
-			'section_max_posts' => 3,
-			'section_button_text' => 'Read All Reviews'
-			)
-		);
-        ?>
-        
-</section>
